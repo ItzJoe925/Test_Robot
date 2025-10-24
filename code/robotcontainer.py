@@ -6,7 +6,6 @@
 
 import logging
 log = logging.Logger('P212-robot')
-
 import wpilib
 import commands2
 import commands2.button

@@ -29,9 +29,10 @@ elec_data = {
   ## TODO: remove the example constants, and add any constants needed by
   ##       your own code, such as I/O ports or CAN bus IDs.
   ##
-  "my_motor_CAN_ID": 11,
-  "my_motor_speed":0.2,
-  "my_motor_speed_reverse":-0.2,
+  "my_motor_CAN_ID":2,
+  "my_motor_speed":0.5,
+  "my_motor_speed_reverse":-0.5,
+  "my_motor_stop":0.0,
 }
 ELEC = namedtuple("Data", elec_data.keys())(**elec_data)
 
