@@ -30,6 +30,7 @@ elec_data = {
   ##       your own code, such as I/O ports or CAN bus IDs.
   ##
   "first_motor_CAN_ID": 2,
+  "second_motor_CAN_ID" :67,
   "my_motor_speed" : 0.5,
   "my_motor_stop" : 0.0,
 }
