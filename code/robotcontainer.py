@@ -35,9 +35,9 @@ class RobotContainer:
         self.secondmotorsub = subsystems.SecondMotorSubsystem.SecondMotorSubsystemClass()
 
         # Set default command for second motor (trigger-controlled)
-        self.secondmotorsub.setDefaultCommand(
-            TriggerSpin(self.secondmotorsub, self.PS5)
-        )
+       # self.secondmotorsub.setDefaultCommand(
+          #  TriggerSpin(self.secondmotorsub, self.PS5)
+        #)
 
         # Configure buttons for first motor
         self.configureButtonBindings()
